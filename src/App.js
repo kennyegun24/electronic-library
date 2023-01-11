@@ -11,6 +11,12 @@ import Instructions from './pages/Instructions';
 import AboutUs from './pages/AboutUs';
 import Quiz from './pages/quiz';
 import UiuxCours from './components/UiuxCours';
+import FontCourse from './components/Font/FontCourse';
+import ColorCourse from './components/color/ColorCourse';
+import TheoryCourse from './components/theories/TheoriesCourse';
+import WhyCourse from './components/why/WhyCourse';
+import CreativeCourse from './components/creativity/CreativityCourse';
+import ThinkingCourse from './components/Thinking/ThinkingCourse';
 // import Beginner from './components/Beginner';
 function App() {
   // const { currentUser } = useContext(AuthContext)
@@ -28,6 +34,12 @@ function App() {
             <Route path='about' element={<AboutUs />} />
             <Route path='beginnerQuiz' element={<Quiz />} />
             <Route path='uiux' element={<UiuxCours />} />
+            <Route path='font' element={<FontCourse />} />
+            <Route path='color' element={<ColorCourse />} />
+            <Route path='theories' element={<TheoryCourse />} />
+            <Route path='why' element={<WhyCourse />} />
+            <Route path='thinking' element={<ThinkingCourse />} />
+            <Route path='creative' element={<CreativeCourse />} />
           </Route>
         </Routes>
       </BrowserRouter>

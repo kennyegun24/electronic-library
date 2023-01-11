@@ -43,22 +43,15 @@ const AboutUs = () => {
                     <div className="mentor">
                         <div className="mentor1"></div>
                         <div style={{ padding: '0.3rem', fontSize: '14px', fontWeight: '600', fontFamily: 'sans-serif', gap: '0.5rem', display: 'flex', flexDirection: 'column' }}>
-                            <p>Abalaka</p>
-                            <p style={{ color: 'red' }}>Career coach</p>
-                        </div>
-                    </div>
-                    <div className="mentor">
-                        <div className="mentor2"></div>
-                        <div style={{ padding: '0.3rem', fontSize: '14px', fontWeight: '600', fontFamily: 'sans-serif', gap: '0.5rem', display: 'flex', flexDirection: 'column' }}>
-                            <p>Gloria Johnson</p>
-                            <p style={{ color: 'red' }}>Product management</p>
+                            <p>Gbolalahan Adebayo</p>
+                            <p style={{ color: 'red' }}>Data Analysis</p>
                         </div>
                     </div>
                     <div className="mentor">
                         <div className="mentor3"></div>
                         <div style={{ padding: '0.3rem', fontSize: '14px', fontWeight: '600', fontFamily: 'sans-serif', gap: '0.5rem', display: 'flex', flexDirection: 'column' }}>
-                            <p>Abalaka</p>
-                            <p style={{ color: 'red' }}>Career coach</p>
+                            <p>Agina-obu Boma</p>
+                            <p style={{ color: 'red' }}>Product Design</p>
                         </div>
                     </div>
                 </div>
@@ -105,15 +98,22 @@ const AboutUs = () => {
                         <div className="member">
                             <div className="member5"></div>
                             <div style={{ padding: '0.3rem', fontSize: '14px', fontWeight: '600', fontFamily: 'sans-serif', gap: '0.5rem', display: 'flex', flexDirection: 'column' }}>
-                                <p>Gory Ordu</p>
-                                <p style={{ color: 'red', textAlign: 'center' }}>Data Analysis</p>
+                                <p>Omolola Olorunfemi</p>
+                                <p style={{ color: 'red', textAlign: 'center' }}>Product Design</p>
                             </div>
                         </div>
                         <div className="member">
                             <div className="member6"></div>
                             <div style={{ padding: '0.3rem', fontSize: '14px', fontWeight: '600', fontFamily: 'sans-serif', gap: '0.5rem', display: 'flex', flexDirection: 'column' }}>
-                                <p>Omolola Olorunfemi</p>
-                                <p style={{ color: 'red', textAlign: 'center' }}>Product Design</p>
+                                <p>Gory Ordu</p>
+                                <p style={{ color: 'red', textAlign: 'center' }}>Data Analysis</p>
+                            </div>
+                        </div>
+                        <div className="member">
+                            <div className="member7"></div>
+                            <div style={{ padding: '0.3rem', fontSize: '14px', fontWeight: '600', fontFamily: 'sans-serif', gap: '0.5rem', display: 'flex', flexDirection: 'column' }}>
+                                <p>Immaculate Lughas</p>
+                                <p style={{ color: 'red', textAlign: 'center' }}>Data Analysis</p>
                             </div>
                         </div>
                     </div>
