@@ -403,51 +403,72 @@ form {
 .bookGrid div {}
 
 .bookGrid .first {
-  background: url('./assets/beginner/firstBook.svg');
+  background: url('./assets/beginner/uiux.jpg');
   width: 100%;
   border: 2px solid #D9D9D9;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bookGrid .second {
-  background: url('./assets/beginner/sec.svg');
+  background: url('./assets/beginner/design.jpg');
   border: 2px solid #D9D9D9;
   width: 100%;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bookGrid .third {
-  background: url('./assets/beginner/third.svg');
+  background: url('./assets/beginner/font.jpg');
   width: 100%;
   border: 2px solid #D9D9D9;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bookGrid .fourth {
-  background: url('./assets/beginner/fourth.svg');
+  background: url('./assets/beginner/OIP.jpg');
   width: 100%;
   border: 2px solid #D9D9D9;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bookGrid .fifth {
-  background: url('./assets/beginner/fifth.svg');
+  background: url('./assets/beginner/colors.jpg');
   width: 100%;
   border: 2px solid #D9D9D9;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bookGrid .sixth {
-  background: url('./assets/beginner/six.svg');
+  background: url('./assets/beginner/creativity.jpg');
   width: 100%;
   border: 2px solid #D9D9D9;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bookGrid .seven {
-  background: url('./assets/beginner/seven.svg');
+  background: url('./assets/beginner/think.jpg');
   width: 100%;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .eight {
@@ -592,6 +613,10 @@ form {
 
 .member6 {
   background-image: url('./assets/members/6.jpg');
+}
+
+.member7 {
+  background-image: url('./assets/members/7.jpg');
 }
 
 .member {
@@ -758,11 +783,19 @@ form {
   margin: 5% auto 10% auto;
 }
 
+.logo {
+  color: red;
+  font-size: 25px
+}
+
 @media(max-width: 764px) {
   .desktopFlex {
     display: block;
   }
 
+  .logo {
+    font-size: 18px;
+  }
 
   .uiuxCourse {
     margin: 10% 0 15% 0;
