@@ -123,7 +123,6 @@ const Quiz = () => {
         setFinish(false)
         setCurrentQuestion(0)
     }
-    console.log(score)
 
     return (
         <div style={{ marginTop: '5%', alignItems: 'center', height: '90vh', display: 'flex', justifyContent: 'center', background: '#111' }}>
