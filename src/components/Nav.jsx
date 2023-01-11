@@ -13,8 +13,8 @@ const Nav = () => {
   }
   return (
     <nav className="mainNav">
-      <span style={{ color: 'red', fontSize: '25px' }}>
-        NSONYE
+      <span className='logo'>
+        NSONYE e-library
       </span>
       <ul className="navUl">
 
