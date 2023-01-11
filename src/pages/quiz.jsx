@@ -126,7 +126,7 @@ const Quiz = () => {
 
     return (
         <div style={{ marginTop: '5%', alignItems: 'center', height: '90vh', display: 'flex', justifyContent: 'center', background: '#111' }}>
-            <div style={{ boxShadow: '10px 10px 25px rgba(231, 226, 226, 0.3)', border: '1px solid #000', width: '40%', height: 'fit-content', background: '#083c77', color: '#fff' }}>
+            <div className='testDiv' >
                 <div style={{ padding: '3%', fontFamily: 'sans-serif', height: '100%' }}>
 
                     {finish ?
@@ -135,11 +135,17 @@ const Quiz = () => {
                                 You scored {score} out of {questions.length}
                             </p>
                             {calc ?
-                                <div>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', textAlign: 'center' }}>
                                     <p>You failed</p>
                                     <button onClick={set} style={{ border: 'none', padding: '0.5rem', borderRadius: '0.5rem', cursor: 'pointer' }}>
                                         Retake Quiz
                                     </button>
+                                    <p>OR</p>
+                                    <Link to='/program' style={{ color: '#fff' }}>
+                                        <button style={{ border: 'none', padding: '0.5rem', borderRadius: '0.5rem', cursor: 'pointer' }}>
+                                            Back to Programs
+                                        </button>
+                                    </Link>
                                 </div>
                                 :
 

@@ -14,7 +14,7 @@ const StudyProgram = () => {
     setBegin(false)
   }
   return (
-    <div style={{ marginTop: '5%', padding: '2% 5%', background: '#D27A7A' }} className='studyProgHead'>
+    <div className='studyProgHead'>
       <div className='flex jstBtw ' >
         <ul className="studyUl">
           <li onClick={openBeginner} style={{ cursor: 'pointer' }}>

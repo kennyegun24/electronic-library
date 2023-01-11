@@ -370,7 +370,10 @@ form {
 }
 
 .studyProgHead {
-  height: 100%;
+  min-height: 100vh;
+  margin: 5% 0 0 0;
+  padding: 2% 5%;
+  background: #D27A7A;
 }
 
 .studyUl {
@@ -450,11 +453,9 @@ form {
 .eight {
   background: url('./assets/beginner/eight.svg');
   height: 200px;
-  position: relative;
 }
 
-.eight div {
-  position: absolute;
+.eight {
   top: 10%;
   left: 10%;
   font-family: 'Montserrat';
@@ -466,8 +467,8 @@ form {
 }
 
 .instruct {
-  margin-top: 5%;
-  height: 90vh;
+  margin: 5% 0 0 0;
+  min-height: 90vh;
   padding: 2%;
 }
 
@@ -477,7 +478,6 @@ form {
   font-weight: 700;
   font-size: 35px;
   line-height: 59px;
-
   color: #000000;
 }
 
@@ -494,20 +494,6 @@ form {
   line-height: 59px;
   text-align: center;
   color: #000000;
-}
-
-.aboutImg {
-  display: flex;
-  background-image: linear-gradient(180deg, rgba(199, 88, 88, 0.54) 2.75%, rgba(199, 88, 88, 0.54) 12%), url('./assets/background/1.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 3%;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  margin: 5% auto 10% auto;
 }
 
 .aboutImg p {
@@ -601,15 +587,11 @@ form {
 }
 
 .member5 {
-  background-image: url('./assets/mentors/1.jpg');
+  background-image: url('./assets/members/5.jpg');
 }
 
 .member6 {
-  background-image: url('./assets/mentors/2.jpg');
-}
-
-.member7 {
-  background-image: url('./assets/mentors/3.jpg');
+  background-image: url('./assets/members/6.jpg');
 }
 
 .member {
@@ -710,4 +692,198 @@ form {
   margin-bottom: 0.5rem;
   box-shadow: 5px 7px 5px rgba(231, 226, 226, 0.2);
   cursor: pointer;
+}
+
+.abtAbout {
+  width: 70%;
+}
+
+.textCnt {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+
+}
+
+.participants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.supportDiv {
+  width: 50%;
+  color: #fff;
+}
+
+.testDiv {
+  box-shadow: 10px 10px 25px rgba(231, 226, 226, 0.3);
+  border: 1px solid #000;
+  width: 50%;
+  height: fit-content;
+  background: #083c77;
+  color: #fff;
+}
+
+.desktopImg {
+  width: 40%;
+  background-image: url('./assets/mentors/2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desktopFlex {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.aboutImg {
+  display: flex;
+  background-image: linear-gradient(180deg, rgba(199, 88, 88, 0.54) 2.75%, rgba(199, 88, 88, 0.54) 12%), url('./assets/background/1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  flex-basis: 50%;
+  margin: 5% auto 10% auto;
+}
+
+@media(max-width: 764px) {
+  .desktopFlex {
+    display: block;
+  }
+
+
+  .uiuxCourse {
+    margin: 10% 0 15% 0;
+    padding: 2% 2%;
+  }
+
+  .uiuxCnts {
+    font-size: 20px;
+  }
+
+  .aboutImg {
+    width: 100%;
+  }
+
+  .testDiv {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .desktopImg {
+    display: none;
+  }
+
+  .navUl {
+    position: fixed;
+    z-index: 99;
+    background: #111;
+    width: 100%;
+    left: 0;
+    padding: 4%;
+    flex-wrap: wrap;
+    bottom: 0;
+    justify-content: space-between;
+  }
+
+  .navUl .navUlLi {
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+
+  .navUlLi {
+    color: #fff;
+  }
+
+  .subDivParagraph {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 16px;
+  }
+
+  .subDivParagraph2 {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+    max-width: 100%;
+  }
+
+  .mainSectionParagragh {
+    font-size: 20px;
+    right: 0;
+    left: 0;
+    width: fit-content;
+  }
+
+  .abt {
+    width: 100%;
+  }
+
+  .abtAbout {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .aboutHeader,
+  .imgMobileHide {
+    flex-basis: 100%;
+  }
+
+  .imgMobileHide img {
+    width: 100%;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .mentor {
+    z-index: -1;
+  }
+
+  .textCnt {
+    padding: 2%;
+    width: 100%;
+  }
+
+  .participants {
+    justify-content: center;
+  }
+
+  .supportDiv {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .studyProgHead {
+    min-height: 100vh;
+    margin: 13% 0;
+    padding: 2% 5%;
+    background: #D27A7A;
+  }
+
+  .instruct {
+    margin: 15% 0;
+  }
+
 }

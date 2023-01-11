@@ -18,17 +18,18 @@ const Nav = () => {
       </span>
       <ul className="navUl">
 
-        <NavLink to='/' className='navLink navUlLi'>HOME</NavLink>
-
-        <NavLink to='/about' className="navUlLi">
-          ABOUT US
+        <NavLink to='/' className=' navUlLi'>
+          <li>HOME</li>
         </NavLink>
 
-        <li className="navUlLi">
-          GALLERY
-        </li>
+        <NavLink to='/about' className=" navUlLi">
+          <li>
 
-        <NavLink to='/program' className='navUlLi navLink'>
+            ABOUT US
+          </li>
+        </NavLink>
+
+        <NavLink to='/program' className='navUlLi'>
           STUDY PROGRAM
         </NavLink>
 

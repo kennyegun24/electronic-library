@@ -32,8 +32,8 @@ const UiuxCours = () => {
                     to animations and navigational touch points
                     (such as buttons and scrollbars). You can read more
                     about this tby clicking on this link
-                    https://careerfoundry.com/en/blog/ui-design/what-does
-                    -a-ui-designer-actually-do/
+                    <a style={{ color: '#083c77', textDecoration: 'underline' }} href='https://www.careerfoundry.com/en/blog/ui-design/what-does
+                    -a-ui-designer-actually-do/'> What does a ui-designer do?</a>
                 </p>
             </div>
         </div>
