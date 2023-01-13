@@ -5,7 +5,7 @@ const UiuxCours = () => {
         <div className='uiuxCourse'>
             <div className='uiuxImg' />
             <div style={{ marginTop: '5%', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <h3 style={{ fontSize: '30px' }}>
+                <h3 className='uiuxCntsHd'>
                     WHAT IS USER EXPERIENCE (UX)?
                 </h3>
                 <p className='uiuxCnts'>
@@ -14,7 +14,6 @@ const UiuxCours = () => {
                     This could be anything from how a physical product feels in your
                     hand, to how straightforward the checkout process is when buying something online. The goal of UX design is to create easy, efficient, relevant, and all-round pleasant experiences for the user.
                 </p>
-                <br />
                 <p className="uiuxCnts">
                     THE DIFFERENCE BETWEEN UI/UX DESIGN
                     When talking about UX, the term user interface (UI)
