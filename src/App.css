@@ -955,7 +955,8 @@ form {
 .dark .instruct h2,
 .dark .instruct p,
 .dark .mainNav,
-.dark .navUlLi {
+.dark .navUlLi,
+.dark .subDivParagraph2 {
   color: #ffffff;
   background: #000;
 }
