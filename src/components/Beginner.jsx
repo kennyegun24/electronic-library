@@ -97,7 +97,7 @@ const Beginner = () => {
           <div className='bookGrid'>
             <div onClick={handleUiUx} style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <div className='first'></div>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>The creative process of design</p>
@@ -113,7 +113,7 @@ const Beginner = () => {
 
             <div onClick={handleThink} style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <div className='second'></div>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>The Design of Everyday Things</p>
@@ -129,7 +129,7 @@ const Beginner = () => {
 
             <div onClick={handleFont} style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <div className='third'></div>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>Theories of Font Sizes</p>
@@ -145,7 +145,7 @@ const Beginner = () => {
 
             <div onClick={handleTheories} style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <div className='fourth'></div>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>UIUX Theories</p>
@@ -161,7 +161,7 @@ const Beginner = () => {
 
             <div onClick={handleColor} style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <div className='fifth'></div>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>THeories behing choice of colors</p>
@@ -177,7 +177,7 @@ const Beginner = () => {
 
             <div onClick={handleCreative} style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <div className='sixth'></div>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>The creative process of design</p>
@@ -193,7 +193,7 @@ const Beginner = () => {
 
             <div onClick={handleWhy} style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <div className='seven'></div>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>Why, How and What</p>
@@ -209,7 +209,7 @@ const Beginner = () => {
 
             <div style={{ border: '1px solid #fff', cursor: 'pointer' }}>
               <Link to='/instruction'><div className='eight'></div></Link>
-              <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+              <div className='books'>
                 <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Beginner</p>
                 <div>
                   <p>Final assessment for beginner level</p>

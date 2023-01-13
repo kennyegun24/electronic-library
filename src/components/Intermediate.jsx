@@ -9,7 +9,7 @@ const Intermediate = () => {
             <div className='bookGrid'>
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='first'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>The creative process of design</p>
@@ -25,7 +25,7 @@ const Intermediate = () => {
 
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='second'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>The creative process of design</p>
@@ -41,7 +41,7 @@ const Intermediate = () => {
 
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='third'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>The creative process of design</p>
@@ -57,7 +57,7 @@ const Intermediate = () => {
 
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='fourth'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>The creative process of design</p>
@@ -73,7 +73,7 @@ const Intermediate = () => {
 
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='fifth'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>The creative process of design</p>
@@ -89,7 +89,7 @@ const Intermediate = () => {
 
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='sixth'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>The creative process of design</p>
@@ -105,7 +105,7 @@ const Intermediate = () => {
 
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='seven'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>The creative process of design</p>
@@ -121,7 +121,7 @@ const Intermediate = () => {
 
                 <div style={{ border: '1px solid #fff' }}>
                     <div className='eight'></div>
-                    <div style={{ padding: '4%', display: 'flex', flexDirection: 'column', gap: '0.5rem', background: '#fff' }}>
+                    <div className='books'>
                         <p style={{ color: '#fff', fontFamily: 'sans-serif', fontSize: '12px', background: '#BC3131', padding: '0.4rem', width: 'fit-content' }}>Intermediate</p>
                         <div>
                             <p>Final assessment for Intermediate level</p>
