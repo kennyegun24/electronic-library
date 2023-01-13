@@ -8,7 +8,7 @@ const AboutUs = () => {
                 <div className='aboutImg'>
                     <div className='abtAbout' >
                         <h3>About Us</h3>
-                        <p>Nsonye is a social impact organization bridging the technology gender-gap for women and girls across Africa. Through our engaing community and upskilling programs, we provide an entry pathway for women and girls to transition into the tech industry,  while also providing them with mentprship and resources to ensure their continued growth. Our core values are built around teamwork, community building and effective mentoring. One person at a time, we are enabling more women and girls to participate and build careers in the tech industry. At Nsonye, we are passionate about having more #WomenInTech emerge from Africa  and want you to be part</p>
+                        <p>Nsonye is a social impact organization bridging the technology gender-gap for women and girls across Africa. Through our engaing community and upskilling programs, we provide an entry pathway for women and girls to transition into the tech industry,  while also providing them with mentprship and resources to ensure their continued growth. Our core values are built around teamwork, community building and effective mentoring. One person at a time, we are enabling more women and girls to participate and build careers in the tech industry. At Nsonye, we are passionate about having more #WomenInTech emerge from Africa and want you to be part Mail: Hello@Nsonye.org</p>
                     </div>
                 </div>
                 <div className='desktopImg'></div>
@@ -60,8 +60,8 @@ const AboutUs = () => {
             <div style={{ width: '100%', padding: '10% 10% 5% 10%' }}>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
                     <div style={{ display: 'flex', gap: '0.5em', fontFamily: 'sans-serif', textAlign: 'left', width: '100%', fontSize: '20px' }}>
-                        <h2>Our</h2>
-                        <h2>Participants</h2>
+                        <h2 style={{ color: 'red' }}>Team Ada</h2>
+                        <h2>Members</h2>
                     </div>
 
                     <div className='participants'>
