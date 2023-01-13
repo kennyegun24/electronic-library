@@ -39,7 +39,7 @@ a {
   padding: 1% 5%;
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background: #fff;
   top: 0;
 }
 
@@ -412,6 +412,14 @@ form {
   background-size: cover;
 }
 
+.books {
+  background: #fff;
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem
+}
+
 .bookGrid .second {
   background: url('./assets/beginner/design.jpg');
   border: 2px solid #D9D9D9;
@@ -698,6 +706,10 @@ form {
   font-family: sans-serif;
 }
 
+.uiuxCntsHd {
+  font-size: 30px;
+}
+
 .questionCount {
   font-size: 20px;
   font-weight: 600;
@@ -803,7 +815,18 @@ form {
   }
 
   .uiuxCnts {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .uiuxCntsHd {
+    font-size: 22px;
+    border-bottom: 2px solid #000;
+    padding: 0.3rem;
+  }
+
+  .loginButton {
+    padding: 0.3rem;
+    font-size: 16px;
   }
 
   .aboutImg {
@@ -890,8 +913,9 @@ form {
     width: 100%;
   }
 
-  .mentor {
-    z-index: -1;
+  .mentor:hover {
+    transform: none;
+    transform-origin: none;
   }
 
   .textCnt {
@@ -918,5 +942,20 @@ form {
   .instruct {
     margin: 15% 0;
   }
+}
 
+.dark,
+.dark .link,
+.dark .studyProgHead,
+.dark .uiux,
+.dark .books,
+.dark .mentor,
+.dark .uiuxTxt,
+.dark .instruct,
+.dark .instruct h2,
+.dark .instruct p,
+.dark .mainNav,
+.dark .navUlLi {
+  color: #ffffff;
+  background: #000;
 }
