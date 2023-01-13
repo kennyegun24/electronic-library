@@ -878,6 +878,10 @@ form {
     color: #fff;
   }
 
+  .active .color {
+    color: #136fd8;
+  }
+
   .subDivParagraph {
     width: 100%;
     text-align: center;

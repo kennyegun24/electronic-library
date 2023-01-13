@@ -4,7 +4,7 @@ import { NavLink, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../context/CurcurrentUser'
 import { auth } from '../firebase'
 import { FaHome, FaMoon, FaPhone, FaSun } from 'react-icons/fa';
-import { FcAbout } from 'react-icons/fc';
+import { FaInfoCircle } from 'react-icons/fa';
 import { GiBookCover } from 'react-icons/gi';
 const Nav = () => {
   const { currentUser } = useContext(AuthContext)
@@ -37,7 +37,7 @@ const Nav = () => {
             <li>HOME </li>
             <div className='hideIcon'>
 
-              <FaHome style={{ fontSize: '25px' }} />
+              <FaHome style={{ fontSize: '25px' }} className='color' />
             </div>
           </NavLink>
         </div>
@@ -48,7 +48,7 @@ const Nav = () => {
               ABOUT US
             </li>
             <div className='hideIcon'>
-              <FcAbout style={{ fontSize: '25px' }} />
+              <FaInfoCircle style={{ fontSize: '25px' }} className='color' />
             </div>
           </NavLink>
         </div>
@@ -57,7 +57,7 @@ const Nav = () => {
           <NavLink to='/program' className='navUlLi'>
             <li>STUDY PROGRAM</li>
             <div className='hideIcon'>
-              <GiBookCover style={{ fontSize: '25px' }} />
+              <GiBookCover style={{ fontSize: '25px' }} className='color' />
             </div>
           </NavLink>
         </div>
