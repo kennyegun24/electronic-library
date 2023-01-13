@@ -800,6 +800,10 @@ form {
   font-size: 25px
 }
 
+.hideIcon {
+  display: none;
+}
+
 @media(max-width: 764px) {
   .desktopFlex {
     display: block;
@@ -851,7 +855,7 @@ form {
     padding: 4% 0;
     flex-wrap: wrap;
     bottom: 0;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .navUl .navUlLi {
@@ -860,6 +864,17 @@ form {
   }
 
   .navUlLi {
+    color: #fff;
+    font-size: 60px;
+  }
+
+  .navUlLi li,
+  .navUlLi2 {
+    display: none;
+  }
+
+  .hideIcon {
+    display: block;
     color: #fff;
   }
 

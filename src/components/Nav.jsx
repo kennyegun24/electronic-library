@@ -3,7 +3,9 @@ import React, { useContext, useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../context/CurcurrentUser'
 import { auth } from '../firebase'
-import { FaMoon, FaSun } from 'react-icons/fa';
+import { FaHome, FaMoon, FaPhone, FaSun } from 'react-icons/fa';
+import { FcAbout } from 'react-icons/fc';
+import { GiBookCover } from 'react-icons/gi';
 const Nav = () => {
   const { currentUser } = useContext(AuthContext)
   const navigate = useNavigate()
@@ -30,25 +32,44 @@ const Nav = () => {
         NSONYE e-library
       </span>
       <ul className="navUl">
+        <div>
+          <NavLink to='/' className=' navUlLi'>
+            <li>HOME </li>
+            <div className='hideIcon'>
 
-        <NavLink to='/' className=' navUlLi'>
-          <li>HOME</li>
-        </NavLink>
+              <FaHome style={{ fontSize: '25px' }} />
+            </div>
+          </NavLink>
+        </div>
 
-        <NavLink to='/about' className=" navUlLi">
-          <li>
+        <div>
+          <NavLink to='/about' className=" navUlLi">
+            <li>
+              ABOUT US
+            </li>
+            <div className='hideIcon'>
+              <FcAbout style={{ fontSize: '25px' }} />
+            </div>
+          </NavLink>
+        </div>
 
-            ABOUT US
+        <div>
+          <NavLink to='/program' className='navUlLi'>
+            <li>STUDY PROGRAM</li>
+            <div className='hideIcon'>
+              <GiBookCover style={{ fontSize: '25px' }} />
+            </div>
+          </NavLink>
+        </div>
+
+        <div>
+          <li className="navUlLi navUlLi2">
+            CONTACT-US
           </li>
-        </NavLink>
-
-        <NavLink to='/program' className='navUlLi'>
-          STUDY PROGRAM
-        </NavLink>
-
-        <li className="navUlLi">
-          CONTACT-US
-        </li>
+          <div className='hideIcon'>
+            <FaPhone style={{ fontSize: '25px' }} />
+          </div>
+        </div>
 
       </ul>
 
